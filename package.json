@@ -11,7 +11,11 @@
     "index",
     "node",
     "driver"
-  ],
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/philippldn/neo4j-index-plugin.git"
+	},
   "author": "Philipp Steiger",
   "license": "MIT",
   "dependencies": {},

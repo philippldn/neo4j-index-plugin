@@ -4,7 +4,7 @@ A small, zero dependencies plugin for the neo4j driver (Neo4j version 3.X.X) to 
 
 This plugin will only create / update indexes that are not already in the database
 
-## Install (to be added soon)
+## Install
 
 ```sh
 npm install --save neo4j-index-plugin
