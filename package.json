@@ -1,0 +1,22 @@
+{
+  "name": "neo4j-index-plugin",
+  "version": "0.0.1",
+  "description": "Set or remove indices and constraints on startup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "neo4j",
+    "index",
+    "node",
+    "driver"
+  ],
+  "author": "Philipp Steiger",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "neo4j-driver": "^4.1.1"
+  }
+}
