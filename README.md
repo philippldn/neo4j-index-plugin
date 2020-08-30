@@ -54,7 +54,32 @@ const config = {
 ```
 
 
-### Developer Notes
+#### Developer Notes
+
+###### TODOS
+
+1. Improve documentation
+2. Validate config object
+3. Support Neo4j version 4.X.X
+4. Run all changes in a single transaction
+5. Support composite indexes
+6. Support Enterprise Edition constraints
+	- Node property existence constraint
+	- Relationship propertyexistence constraints
+	- Node key constraints
+
+###### Determine Neo4j Version
+```
+CALL dbms.components() 
+YIELD versions 
+UNWIND versions as version 
+RETURN version
+```
+
+// Deprecations: https://neo4j.com/docs/cypher-manual/current/deprecations-additions-removals-compatibility/
+
+// Indexes: https://neo4j.com/docs/cypher-manual/4.0/administration/indexes-for-search-performance/
+
 ###### Neo4j 3.X.X
 ```
 // LIST ALL INDEXES IN THE DATABASE
