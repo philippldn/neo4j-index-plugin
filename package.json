@@ -1,6 +1,6 @@
 {
   "name": "neo4j-index-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create or update indexes and constraints in Neo4j using NodeJS",
   "main": "index.js",
   "scripts": {

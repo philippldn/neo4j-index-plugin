@@ -3,3 +3,4 @@
 /node_modules
 /test_integration
 jest.config.js
+DEVNOTES.md
